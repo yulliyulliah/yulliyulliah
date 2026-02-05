@@ -45,6 +45,7 @@ def update_readme():
     
     # README.md 파일 읽기
     # ================= [여기가 중요합니다!] =================
+    # 아까 비어있던 따옴표를 제가 채워넣었습니다. 절대 지우지 마세요!
     start_marker = ""
     end_marker = ""
     # =======================================================
@@ -61,7 +62,7 @@ def update_readme():
         with open("README.md", "w", encoding="utf-8") as f:
             f.write(new_content)
     else:
-        print("Error: README.md 파일에 와 가 있는지 확인해주세요!")
+        print("Error: README.md 파일에 표지판이 없습니다.")
 
 if __name__ == "__main__":
     update_readme()
