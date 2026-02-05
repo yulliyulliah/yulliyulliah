@@ -14,8 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-## 제 프로필입니다
-안녕하세요! 반갑습니다.
+웬디의 복귀를 기다리며
 <!-- TIMER_START -->
 
 <div align="center" style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 20px; text-align: left;">
