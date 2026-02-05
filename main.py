@@ -3,7 +3,7 @@ import os
 
 # ================= ⚙️ 설정 구역 =================
 TARGET_DATE = datetime.datetime(2026, 4, 3) # 목표 날짜
-TARGET_NAME = "보고싶은 웬디"
+TARGET_NAME = "웬디"
 START_HOUR = 10
 END_HOUR = 19
 # ===============================================
