@@ -17,4 +17,18 @@ Here are some ideas to get you started:
 ## 제 프로필입니다
 안녕하세요! 반갑습니다.
 <!-- TIMER_START -->
+
+<div align="center" style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 20px; text-align: left;">
+
+### 보고싶은 웬디 없는 오늘은 2/5일 🥹
+## 보고싶은 웬디 오는 4/3일까지 56일 남았어요
+
+<br>
+
+- ⏰ **현재 시간 기준**: 56일 19시간 52분 남았어요
+- 💼 **워킹데이 기준**: 41일 남았어요 (주말 제외)
+- ⏳ **보고싶어요 얼른와요...**
+
+</div>
+
 <!-- TIMER_END -->
