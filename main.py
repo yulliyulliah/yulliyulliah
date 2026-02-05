@@ -1,7 +1,7 @@
 import datetime
 import os
 
-# ================= 설정 구역 (수정하신 내용 반영됨) =================
+# ================= ⚙️ 설정 구역 (수정하신 내용 반영됨) =================
 TARGET_DATE = datetime.datetime(2026, 4, 3) # 목표 날짜 (년, 월, 일)
 TARGET_NAME = "보고싶은 웬디"
 START_HOUR = 10  # 출근 시간 (10시)
@@ -44,10 +44,10 @@ def update_readme():
 """
     
     # README.md 파일 읽기
-    # ================= [중요] 여기를 고쳤습니다! =================
+    # ================= [여기가 중요합니다!] =================
     start_marker = ""
     end_marker = ""
-    # =========================================================
+    # =======================================================
     
     with open("README.md", "r", encoding="utf-8") as f:
         content = f.read()
@@ -61,7 +61,6 @@ def update_readme():
         with open("README.md", "w", encoding="utf-8") as f:
             f.write(new_content)
     else:
-        # 혹시라도 README에 표지판이 없으면 에러 메시지 출력
         print("Error: README.md 파일에 와 가 있는지 확인해주세요!")
 
 if __name__ == "__main__":
