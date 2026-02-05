@@ -1,0 +1,28 @@
+name: Timer Update Bot
+
+on:
+  schedule:
+    - cron: '0 * * * *' # 매 시간마다 실행 (원하면 '0 0 * * *'로 바꿔서 매일 자정 실행 가능)
+  workflow_dispatch: # 수동으로 버튼 눌러서 실행 가능하게 함
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+          
+      - name: Run Timer Script
+        run: python main.py
+        
+      - name: Commit and Push
+        run: |
+          git config --global user.name "Timer Bot"
+          git config --global user.email "bot@noreply.github.com"
+          git add README.md
+          git commit -m "Update Timer" || exit 0
+          git push
