@@ -18,12 +18,12 @@ Here are some ideas to get you started:
 <!-- TIMER_START -->
 
 <div align="center" style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 20px;">
-    <h3>웬디 없는 오늘은 2/12일 🥹</h3>
-    <h2>웬디 오는 4/3일까지 49일 남았어요</h2>
+    <h3>웬디 없는 오늘은 2/13일 🥹</h3>
+    <h2>웬디 오는 4/3일까지 48일 남았어요</h2>
     <br>
     <p align="left">
-        ⏰ <b>현재 시간 기준</b>: 49일 0시간 2분 남았어요<br>
-        💼 <b>워킹데이 기준</b>: 36일 남았어요 (주말 제외)<br>
+        ⏰ <b>현재 시간 기준</b>: 48일 18시간 46분 남았어요<br>
+        💼 <b>워킹데이 기준</b>: 35일 남았어요 (주말 제외)<br>
         ⏳ <b>보고싶어요 얼른와요...</b>
     </p>
 </div>
